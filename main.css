@@ -13,7 +13,7 @@ body {
 }
 
 .light-theme {
-    background-color: white;
+    background-color:white;
     color: black;
 
 }
@@ -147,7 +147,7 @@ img
 
 #portfolio-2
 {
-	background-color: #f9bf3b;
+	background-color: black;
 }
 
 #portfolio-3
@@ -167,7 +167,7 @@ img
 
 #portfolio-container-1
 {
-	background-image: url();
+	background-image: url(welcome.jpeg);
 }
 
 #portfolio-container-2
@@ -259,8 +259,3 @@ img
 	margin-bottom: 20px;
 }
 
-#title-robby
-{
-	top: 12px;
-	float: left;
-}
