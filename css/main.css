@@ -31,7 +31,7 @@ a
 	margin-right: 20px;
 	margin-bottom: 20px;
 	float: left;
-	background-image: url(peepoPooPoo.png);
+	background-image: url(/images/peepoPooPoo.png);
 }
 
 body
@@ -112,17 +112,17 @@ header
 
 .icon-email
 {
-	background-image: url(icon-email.png);
+	background-image: url(/images/icon-email.png);
 }
 
 .icon-instagram
 {
-	background-image: url(icon-instagram.png);
+	background-image: url(/images/icon-instagram.png);
 }
 
 .icon-YouTube
 {
-	background-image: url(icon-YouTUbe.png);
+	background-image: url(/images/icon-YouTUbe.png);
 }
 
 img
@@ -139,7 +139,7 @@ img
 
 #portfolio-1
 {
-	background-image: url(ground.png);
+	background-image: url(/images/ground.png);
 	background-repeat: repeat-x;
 	background-position: center bottom;
 	background-color: #00bff3;
@@ -152,7 +152,7 @@ img
 
 #portfolio-3
 {
-	background-image: url(ground.png);
+	background-image: url(/images/ground.png);
 	background-position: center top;
 }
 
@@ -167,12 +167,12 @@ img
 
 #portfolio-container-1
 {
-	background-image: url(welcome.jpeg);
+	background-image: url(/images/welcome.jpeg);
 }
 
 #portfolio-container-2
 {
-	background-image: url(HTML.jfif);
+	background-image: url(/images/HTML.jfif);
 }
 
 #portfolio-container-3
