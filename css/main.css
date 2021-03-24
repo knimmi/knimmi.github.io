@@ -13,14 +13,13 @@ body {
 }
 
 .light-theme {
-    background-color:white;
-    color: black;
-
+    background-color: white;
+	color: black;
 }
 
 a
 {
-	text-decoration: none;
+	-dtextecoration: none;
 }
 
 .avatar
