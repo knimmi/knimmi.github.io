@@ -13,7 +13,6 @@ body {
 }
 
 .light-theme {
-    background-color: white;
 	color: black;
 }
 
@@ -257,4 +256,8 @@ img
 	font-size: 30px;
 	margin-bottom: 20px;
 }
+
+.calculator__keys { 
+	display: grid;  
+  }
 
