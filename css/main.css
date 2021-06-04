@@ -101,7 +101,7 @@ header
 	margin-right: 0px;
 }
 
-#icons-container-right
+.icons-container-right
 {
 	position: relative;
 	top: 8px;
@@ -110,20 +110,20 @@ header
 
 .icon-email
 {
-	background-image: url(/images/icon-email.png);
+	background-image: url(/images/icon-email.jpg);
 }
 
 .icon-instagram
 {
-	background-image: url(/images/icon-instagram.png);
+	background-image: url(/images/icon-instagram.jpg);
 }
 
 .icon-YouTube
 {
-	background-image: url(/images/icon-YouTUbe.png);
+	background-image: url(/images/icon-youtube.jpg);
 }
 
-img
+.img
 { 
 	border-style: none;
 }
@@ -260,4 +260,6 @@ img
 .calculator__keys { 
 	display: grid;  
   }
-
+ .text-card {
+	 color: black;
+ }
