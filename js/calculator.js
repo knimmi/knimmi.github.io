@@ -1,5 +1,5 @@
+//display en buttons declareren
 const buttons = document.querySelectorAll("button");
-
 const display = document.querySelector(".display");
 
 buttons.forEach(function(button) {
@@ -7,7 +7,7 @@ buttons.forEach(function(button) {
   button.addEventListener("click", calculate);
 
 });
-
+  //De som laten zien on de display
 function calculate(event) {
 
   const clickedButtonValue = event.target.value;
@@ -20,7 +20,7 @@ function calculate(event) {
 
     }
     
-
+    //Calculator display leeg halen
   } else if (clickedButtonValue === "C") {
 
     display.value = " ";
