@@ -263,3 +263,8 @@ footer
     text-align: center;
     margin: 10% 0 10% 10%;
 }
+
+.navBar{
+	margin-top:0;
+	margin-bottom:5%;
+}
