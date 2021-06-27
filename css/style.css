@@ -73,6 +73,15 @@ html{
   transition: .2s linear;
 }
 
+.theme-changer {
+  background-color: #353b48;
+  border-radius: 10px;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
 .navbar-menu a:hover{
   color: #48dbfb !important;
 }
@@ -84,6 +93,10 @@ html{
 
 .sticky .navbar-menu a{
   color: #111;
+}
+
+.dark1{
+  background-color: #353b48;
 }
 
 .sticky .menu-toggler span{
