@@ -45,13 +45,6 @@ html{
   justify-content: space-between;
 }
 
-.logo{
-  width: 44px;
-  height: 32px;
-  background-image: url(../images/white-logo.png);
-  background-size: contain;
-}
-
 .menu-toggler{
   background: none;
   width: 30px;
@@ -87,10 +80,6 @@ html{
 .sticky{
   background-color: #fff;
   padding: 18px 0;
-}
-
-.sticky .logo{
-  background-image: url(../images/black-logo.png);
 }
 
 .sticky .navbar-menu a{
@@ -284,19 +273,19 @@ section{
 }
 
 .html:after{
-  width: 90%;
+  width: 60%;
 }
 
 .css:after{
-  width: 80%;
+  width: 60%;
 }
 
 .js:after{
-  width: 70%;
+  width: 60%;
 }
 
 .cs:after{
-  width: 80%;
+  width: 50%;
 }
 
 section.dark{
