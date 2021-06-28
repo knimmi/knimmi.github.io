@@ -1,28 +1,30 @@
-html, body{
-    background-color: black;
+html,
+body {
+  background-color: black;
 }
 
 .ContactSection {
-    height: 10vh;
+  height: 10vh;
 }
 
-.center-div-contacts{
-    text-align: center;
-    margin-top: 20vh;
+.center-div-contacts {
+  text-align: center;
+  margin-top: 20vh;
 }
 
-.center-div-contacts h3, .center-div-contacts p{
-    color:white;
-    font-size: 3vh;
+.center-div-contacts h3,
+.center-div-contacts p {
+  color: white;
+  font-size: 3vh;
 }
 .text {
-    color: white;
+  color: white;
 }
 
 .light-theme {
-	color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
-.navBar{
-    margin: 5%;
+.navBar {
+  margin: 5%;
 }
