@@ -134,7 +134,7 @@
       <div class="inner-width">
         <h1 class="section-title">Projects</h1>
         <div class="works">
-          <a href="calculator.html" class="projects">
+          <a href="/templates/calculator.html" class="projects">
             <img src="images/calculator.png" alt="" />
             <div class="info">
               <h3>Rekenmachine</h3>
@@ -144,22 +144,12 @@
             </div>
           </a>
 
-          <a href="bke.html" class="projects">
+          <a href="/templates/bke.html" class="projects">
             <img src="images/tictactoe.png" alt="" />
             <div class="info">
               <h3>Tic Tac Toe</h3>
               <div class="cat">
                 Tic Tac Toe game die ik heb gemaakt voor een school project
-              </div>
-            </div>
-          </a>
-
-          <a href="login.html" class="projects">
-            <img src="images/login.png" alt="" />
-            <div class="info">
-              <h3>Log In screen</h3>
-              <div class="cat">
-                Een log in scherm die ik thuis voor de lol heb gemaakt
               </div>
             </div>
           </a>
