@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+  <?php
+  require '../modules/db.php';
+  require '../modules/Projects.php';
+    $projects = getProjects;
+
+  ?>
+  <head>   
+     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link
@@ -17,6 +23,7 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
+
     <!-- Navbar -->
     <nav class="navbar theme">
       <div class="inner-width">
@@ -129,7 +136,18 @@
       </div>
     </section>
 
-    <!-- Projects -->
+
+<?php foreach ($projects as $project): ?>
+<div class="cards">
+        <div class="card">
+        <h2 class="card-title"><?= $project->name; ?></h2>
+            <img src="<?= $project->image; ?>" alt="een code snippet">
+            <p class="card-desc"><?= $project->description; ?></p>
+</div>
+</div>
+    <?php endforeach; ?>
+
+    <!-- Projects 
     <section id="Projects" class="dark">
       <div class="inner-width">
         <h1 class="section-title">Projects</h1>
@@ -156,6 +174,7 @@
         </div>
       </div>
     </section>
+    -->
 
     <!-- Contact -->
     <section id="contact" class="theme">

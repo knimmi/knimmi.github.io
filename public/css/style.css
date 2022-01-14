@@ -131,16 +131,16 @@ html {
 }
 
 #home .content h1::after {
-  content: "Alex Immink";
+  content: " Alex Immink";
   animation: textanim 10s linear infinite;
 }
 
 @keyframes textanim {
   25% {
-    content: "A Developer";
+    content: " A Developer";
   }
   50% {
-    content: "A Gamer";
+    content: " A Gamer";
   }
 }
 
