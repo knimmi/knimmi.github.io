@@ -1,11 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?php
-  require '../modules/db.php';
-  require '../modules/Projects.php';
-    $projects = getProjects;
-
-  ?>
   <head>   
      <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -137,17 +131,17 @@
     </section>
 
 
-<?php foreach ($projects as $project): ?>
+<?php foreach($project as $projects): ?>
 <div class="cards">
         <div class="card">
         <h2 class="card-title"><?= $project->name; ?></h2>
-            <img src="<?= $project->image; ?>" alt="een code snippet">
+            <img src="<?= $project->img; ?>" alt="een code snippet">
             <p class="card-desc"><?= $project->description; ?></p>
 </div>
 </div>
     <?php endforeach; ?>
 
-    <!-- Projects 
+    <!--Projects-->
     <section id="Projects" class="dark">
       <div class="inner-width">
         <h1 class="section-title">Projects</h1>
@@ -162,6 +156,16 @@
             </div>
           </a>
 
+          <a href="https://github.com/AImmink/zuzu" class="projects">
+            <img src="images/Sushi.jpg" alt="" />
+            <div class="info">
+              <h3>zuzu</h3>
+              <div class="cat">
+                Zuzu van school
+              </div>
+            </div>
+          </a>
+      
           <a href="/templates/bke.html" class="projects">
             <img src="images/tictactoe.png" alt="" />
             <div class="info">
@@ -170,11 +174,12 @@
                 Tic Tac Toe game die ik heb gemaakt voor een school project
               </div>
             </div>
+            </div>
           </a>
         </div>
       </div>
     </section>
-    -->
+
 
     <!-- Contact -->
     <section id="contact" class="theme">
