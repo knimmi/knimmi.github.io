@@ -75,12 +75,12 @@ html {
 
 .theme-changer {
   background: none;
-  background-color: #353b48;
-  border-radius: 10px;
+  outline: none;
   color: white;
-  margin: 10px;
+  margin-left: 30px;
   text-align: center;
   font-size: 16px;
+  border: none;
 }
 
 .navbar-menu a:hover {
@@ -286,19 +286,23 @@ section {
 }
 
 .html:after {
-  width: 60%;
+  width: 50%;
 }
 
 .css:after {
-  width: 60%;
+  width: 50%;
 }
 
 .js:after {
-  width: 60%;
+  width: 40%;
 }
 
 .cs:after {
-  width: 50%;
+  width: 20%;
+}
+
+.php:after {
+  width: 30%;
 }
 
 section.dark {

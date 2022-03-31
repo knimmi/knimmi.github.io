@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>   
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="public/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="public/js/scripts.js"></script>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar theme">
+      <div class="inner-width">
+        <button class="menu-toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navbar-menu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#school">School/Werk</a>
+          <a href="#Projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-changer themabtn">Theme</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="inner-width">
+        <div class="content">
+          <h1>Hi I'm</h1>
+          <div class="sm">
+            <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              class="fab fa-youtube"
+            ></a>
+          </div>
+          <div class="buttons">
+            <a href="#contact">Contact me</a>
+            <a href="#Projects">Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="theme">
+      <div class="inner-width theme">
+        <h1 class="section-title">About</h1>
+        <div class="about-content theme">
+          <img src="public/images/peepoPooPoo.png" alt="" class="about-pic" />
+          <div class="about-text">
+            <h2 class="theme">Hi! I'm Alex Immink</h2>
+            <h3>
+              <span>Developer</span>
+              <span>Gamer</span>
+            </h3>
+            <p class="theme">
+              Ik doe nu de opleiding Software Developer MBO op niveau 4 Tot nu
+              toe heb ik geleerd om in C#,HTML,CSS,Javascript en PHP te schrijven.
+              Ik heb deze opleiding gekozem omdat ik graag met computers werk en
+              meer wil weten wat allemaal gebeurd dat de gebruiken zelf niet kan
+              zien. Ik zit nu op het tweede jaar en vind het erg leuk.
+            </p>
+          </div>
+        </div>
+
+        <div class="skills">
+          <div class="skill">
+            <div class="skill-info">
+              <span>HTML</span>
+              <span>50%</span>
+            </div>
+            <div class="skill-bar html"></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>CSS</span>
+              <span>50%</span>
+            </div>
+            <div class="skill-bar css"></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>Javascript</span>
+              <span>40%</span>
+            </div>
+            <div class="skill-bar js"></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>C#</span>
+              <span>20%</span>
+            </div>
+            <div class="skill-bar cs"></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>PHP</span>
+              <span>30%</span>
+            </div>
+            <div class="skill-bar php"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- School/Werk -->
+    <section id="school" class="theme">
+      <div class="inner-width">
+        <h1 class="section-title">School & Werk</h1>
+        <div class="time-line">
+          <div class="block">
+            <h4>2020 - 2022</h4>
+            <h3>Software Developer</h3>
+            <p>Dit is mijn tweede jaar dat ik de opleiding Software Developer volg</p>
+          </div>
+        </div>
+
+        <div class="time-line">
+          <div class="block">
+            <h4>2021 - 2022</h4>
+            <h3>Thuisbezorgd Bezorger</h3>
+            <p>Ik ben parttime bezorger bij thuisbezorgd sinds juli 2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Projects-->
+    <section id="Projects" class="dark">
+      <div class="inner-width">
+        <h1 class="section-title">Projects</h1>
+        <div class="works">
+          <a href="/templates/calculator.html" class="projects">
+            <img src="public/images/calculator.png" alt="" />
+            <div class="info">
+              <h3>Rekenmachine</h3>
+              <div class="cat">
+                Rekenmachine die ik heb gemaakt voor een school project met Javascript
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/AImmink/zuzu" class="projects">
+            <img src="public/images/Sushi.jpg" alt="" />
+            <div class="info">
+              <h3>zuzu</h3>
+              <div class="cat">
+                Zuzu project in PHP
+              </div>
+            </div>
+          </a>
+      
+          <a href="/templates/bke.html" class="projects">
+            <img src="public/images/tictactoe.png" alt="" />
+            <div class="info">
+              <h3>Tic Tac Toe</h3>
+              <div class="cat">
+                Tic Tac Toe game die ik heb gemaakt voor een school project met Javascript
+              </div>
+            </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="theme">
+      <div class="inner-width">
+        <h1 class="section-title">Contact</h1>
+        <div class="contact-info">
+          <div class="item">
+            <i class="fas fa-mobile-alt"></i>
+            +31 06 40416148
+          </div>
+
+          <div class="item">
+            <i class="fas fa-envelope"></i>
+            a.immink15@gmail.com
+          </div>
+
+          <div class="item">
+            <i class="fas fa-map-marker-alt"></i>
+            Den Haag, Netherlands
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="inner-width">
+        <div class="copyright">
+          &copy; 2021 | Created & Designed By <a href="#">Alex Immink</a>
+        </div>
+        <div class="sm">
+          <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            class="fab fa-youtube"
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Go Top BTN -->
+    <button class="goTop fas fa-arrow-up"></button>
+  </body>
+</html>
