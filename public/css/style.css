@@ -131,7 +131,7 @@ html {
 }
 
 #home .content h1::after {
-  content: " Alex Immink";
+  content: " Alex";
   animation: textanim 10s linear infinite;
 }
 
