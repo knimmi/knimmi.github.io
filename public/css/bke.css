@@ -35,3 +35,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.home-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-btn:hover {
+  background-color: #2c3e50;
+}
